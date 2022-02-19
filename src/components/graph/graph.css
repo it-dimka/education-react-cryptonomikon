@@ -1,0 +1,48 @@
+.graph__wrapper {
+    width: 100%;
+    height: 25rem;
+
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.graph__info {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.graph__title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.graph_btn {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    position: relative;
+}
+
+.graph_btn::before {
+    content: 'X';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.graph__wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+
+.graph__block {
+    width: 2rem;
+    height: 50%;
+    border-right: 1px solid white;
+    background: #535353;
+}

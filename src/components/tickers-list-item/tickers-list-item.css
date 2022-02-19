@@ -1,0 +1,50 @@
+.ticker-list__item {
+    margin: 1.5rem;
+    padding: 1.5rem 3rem;
+    width: 30%;
+    height: 17.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 0.25rem rgba(0,0,0, 0.15);
+
+    cursor: pointer;
+}
+
+.ticker-list__item_title {
+    font-size: 1.5rem;
+    color: #535353;
+}
+
+.ticker-list__item_price {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.ticker-list__item_btn {
+    display: block;
+    margin: 0 auto;
+    padding: 0.25em;
+    width: 10rem;
+
+    background: transparent;
+    border: 2px solid #ccc;
+
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #535353;
+
+    transition: all linear 0.2s;
+}
+
+.ticker-list__item_btn:hover {
+    border: 2px solid #535353;
+}
+
+.active {
+    border: 3px solid red;
+}
